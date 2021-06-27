@@ -2,27 +2,27 @@ package com.dxc.hospitalpharma.model;
 
 public class Medicine {
 
-    private Integer id;
-    private String name;
+    private String value;
+    private String data;
 
-    public Medicine(Integer id, String name) {
-        this.id = id;
-        this.name = name;
+    public Medicine(String value, String data) {
+        this.value = value;
+        this.data = data;
     }
 
-    public Integer getId() {
-        return id;
+    public String getValue() {
+        return value;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setValue(String value) {
+        this.value = value;
     }
 
-    public String getName() {
-        return name;
+    public String getData() {
+        return data;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setData(String data) {
+        this.data = data;
     }
 }
