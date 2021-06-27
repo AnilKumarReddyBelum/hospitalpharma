@@ -87,7 +87,7 @@ $(document).ready(function () {
         formObject.preparedBy = $("#preparedBy").val();
         formObject.generatedBy = $("#generatedBy").val();
         formObject.medicalItems = cart;
-        alert(JSON.stringify(formObject));
+        // alert(JSON.stringify(formObject));
 
         $.ajax({
             url: 'api/v1/billing',
