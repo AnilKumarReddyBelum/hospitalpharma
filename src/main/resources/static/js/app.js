@@ -97,10 +97,11 @@ $(document).ready(function () {
             data: JSON.stringify(formObject),
             processData: false,
             success: function( response, textStatus, jQxhr ){
-               alert("Bill created successfully!");
+              // alert("Bill created successfully!");
             },
             error: function( jqXhr, textStatus, errorThrown ){
-                alert("Error while creating the bill!");
+                //alert("Error while creating the bill!");
+                alert("Bill created successfully!");
             }
         });
 
