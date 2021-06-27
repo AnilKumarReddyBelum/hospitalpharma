@@ -68,7 +68,7 @@ $(document).ready(function () {
     $.getJSON(url, function (data) {
         $.each(data, function (index, value) {
             // APPEND OR INSERT DATA TO SELECT ELEMENT.
-            $('#medicine').append('<option value="' + value.id + '">' + value.name + '</option>');
+            $('#medicine').append('<option value="' + value.data + '">' + value.value + '</option>');
         });
     });
 });
